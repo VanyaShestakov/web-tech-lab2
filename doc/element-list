@@ -1,0 +1,12 @@
+com.ivanshestakov.lab2
+com.ivanshestakov.lab2.entity
+com.ivanshestakov.lab2.entity.criteria
+com.ivanshestakov.lab2.entity.enums
+com.ivanshestakov.lab2.repository
+com.ivanshestakov.lab2.repository.factory
+com.ivanshestakov.lab2.repository.impl
+com.ivanshestakov.lab2.runner
+com.ivanshestakov.lab2.service
+com.ivanshestakov.lab2.service.factory
+com.ivanshestakov.lab2.service.impl
+com.ivanshestakov.lab2.service.validation

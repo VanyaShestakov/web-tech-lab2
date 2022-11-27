@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="10.0.2" class="java.beans.XMLDecoder">
+ <object class="com.ivanshestakov.lab2.entity.Kettle">
+  <void property="color">
+   <object class="java.lang.Enum" id="Color0" method="valueOf">
+    <class>com.ivanshestakov.lab2.entity.enums.Color</class>
+    <string>Black</string>
+   </object>
+  </void>
+  <void property="name">
+   <string>SomeKettle</string>
+  </void>
+  <void property="powerConsumption">
+   <int>3200</int>
+  </void>
+  <void property="price">
+   <double>55.0</double>
+  </void>
+  <void property="waterCapacity">
+   <double>2.0</double>
+  </void>
+ </object>
+ <object class="com.ivanshestakov.lab2.entity.Kettle">
+  <void property="color">
+   <object class="java.lang.Enum" method="valueOf">
+    <class>com.ivanshestakov.lab2.entity.enums.Color</class>
+    <string>White</string>
+   </object>
+  </void>
+  <void property="name">
+   <string>OtherKettle</string>
+  </void>
+  <void property="powerConsumption">
+   <int>2200</int>
+  </void>
+  <void property="price">
+   <double>70.59</double>
+  </void>
+  <void property="waterCapacity">
+   <double>1.5</double>
+  </void>
+ </object>
+ <object class="com.ivanshestakov.lab2.entity.Oven">
+  <void property="capacity">
+   <int>23</int>
+  </void>
+  <void property="depth">
+   <int>1</int>
+  </void>
+  <void property="height">
+   <double>1.0</double>
+  </void>
+  <void property="name">
+   <string>SomeOven</string>
+  </void>
+  <void property="powerConsumption">
+   <int>400</int>
+  </void>
+  <void property="price">
+   <double>350.0</double>
+  </void>
+  <void property="weight">
+   <double>13.5</double>
+  </void>
+  <void property="width">
+   <double>1.0</double>
+  </void>
+ </object>
+ <object class="com.ivanshestakov.lab2.entity.Oven">
+  <void property="capacity">
+   <int>20</int>
+  </void>
+  <void property="depth">
+   <int>1</int>
+  </void>
+  <void property="height">
+   <double>1.0</double>
+  </void>
+  <void property="name">
+   <string>OtherOven</string>
+  </void>
+  <void property="powerConsumption">
+   <int>400</int>
+  </void>
+  <void property="price">
+   <double>135.0</double>
+  </void>
+  <void property="weight">
+   <double>10.5</double>
+  </void>
+  <void property="width">
+   <double>1.0</double>
+  </void>
+ </object>
+ <object class="com.ivanshestakov.lab2.entity.Tablet">
+  <void property="batteryCapacity">
+   <double>7040.0</double>
+  </void>
+  <void property="color">
+   <object class="java.lang.Enum" method="valueOf">
+    <class>com.ivanshestakov.lab2.entity.enums.Color</class>
+    <string>Grey</string>
+   </object>
+  </void>
+  <void property="displayInches">
+   <int>10</int>
+  </void>
+  <void property="flashMemoryCapacity">
+   <double>12.0</double>
+  </void>
+  <void property="memoryRom">
+   <double>8000.0</double>
+  </void>
+  <void property="name">
+   <string>SomeTablet</string>
+  </void>
+  <void property="price">
+   <double>769.0</double>
+  </void>
+ </object>
+ <object class="com.ivanshestakov.lab2.entity.Tablet">
+  <void property="batteryCapacity">
+   <double>8720.0</double>
+  </void>
+  <void property="color">
+   <object idref="Color0"/>
+  </void>
+  <void property="displayInches">
+   <int>11</int>
+  </void>
+  <void property="flashMemoryCapacity">
+   <double>12.0</double>
+  </void>
+  <void property="memoryRom">
+   <double>16000.0</double>
+  </void>
+  <void property="name">
+   <string>Other Tablet</string>
+  </void>
+  <void property="price">
+   <double>1400.0</double>
+  </void>
+ </object>
+</java>
